@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form | Yashasvi  </title>
+    <link rel="stylesheet" href="style1.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Please fill the form to Continue Registration</div>
+    <div class="content">
+      <form action="mailhandle.php" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" name="first_name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" name="last_name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" name="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="tel" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Fathers Name</span>
+            <input type="text" placeholder="Enter your Fathers Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Mothers Name</span>
+            <input type="text" placeholder="Enter your Mothers Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+        <div class="option">or Connect With Social Media</div>
+      <div class="twitter">
+        <a href="#"><i class="fab fa-google"></i>Sign in With Twitter</a>
+      </div>
+      <div class="facebook">
+        <a href="#"><i class="fab fa-facebook-f"></i>Sign in With Facebook</a>
+      </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
